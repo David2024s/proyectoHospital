@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+}
+
 .contenedor_inicio{
   display: flex;
   width: 100%;
@@ -29,62 +36,17 @@
   color: #666;
 }
 
-
-
-.list_metricas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cont_panel{
   width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
-.cont_metricas{
-  max-width: 90vw;
-  min-width: 150px;
-  flex: 1 1 200px;
-  height: 180px;
-  margin: 20px;
-  background-color: #fff;
-  border-radius: 20px;
-      border: 1px solid #dfdfdf;
-      padding: 10px;
-
-      display: flex;
-      flex-direction: column;
-      align-items: initial;
-      justify-content: space-around;
-}
-
-.cont_metricas span:nth-child(1){
-  width: 100%;
-  height: min-content;
+#userForm{
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.cont_metricas span:nth-child(2){
-  width: 100%;
-  height: min-content;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
-  font-size: 13px;
-  color: #666;
-}
-
-.cont_metricas span:nth-child(2) p:nth-child(1){
-  color: #000;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Estilos para los iconos de las métricas */
-
-.bx{
-  font-size: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
