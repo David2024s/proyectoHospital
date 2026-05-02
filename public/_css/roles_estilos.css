@@ -1,0 +1,120 @@
+/* DISEÑO GENERAL DEL PANEL DERECHO */
+.contender_inicio {
+    display: flex;
+    width: 100%;
+    min-height: 85vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    background-color: #f8fafc;
+}
+
+/* CONTENEDOR ANCHO PARA FORMULARIOS Y TABLAS */
+.form-card,
+.table-main-container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    margin: 0 auto;
+    width: 95%;
+    /* Ocupa casi todo el ancho */
+    max-width: 1100px;
+    /* Límite para que no se deforme */
+    border: 1px solid #f0f0f0;
+}
+
+/* TÍTULOS */
+.title-styled {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+/* INPUTS ESTILIZADOS */
+.input-wrapper {
+    margin-bottom: 25px;
+}
+
+.label-styled {
+    display: block;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.input-styled {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fcfdfe;
+    transition: all 0.3s ease;
+}
+
+.input-styled:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.1);
+}
+
+/* TABLA ANCHA */
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.custom-table th {
+    color: #64748b;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px;
+    text-align: left;
+}
+
+.custom-table td {
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+/* BOTONES PROFESIONALES */
+.btn-save-styled {
+    background: #3498db;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-save-styled:hover {
+    background: #2980b9;
+}
+
+.btn-cancel-styled {
+    text-decoration: none;
+    color: #64748b;
+    padding: 14px 40px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-cancel-styled:hover {
+    background: #f1f5f9;
+}
